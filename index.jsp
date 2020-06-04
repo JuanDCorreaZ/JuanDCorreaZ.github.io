@@ -1,4 +1,3 @@
-# JuanDCorreaZ.github.io
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -106,7 +105,7 @@
                         <div>
                             <h1 id="title">¡Bienvenido a Seguridad con fronteras!</h1>
                             <h2>Reg&iacute;strate para poder reportar anomal&iacute;as.</h2>
-                            <a href="#registrar">Registrarse</a>
+                            <a href="registro.jsp">Registrarse</a>
                         </div>
                         <img src="imagenes/slider/Orangemapa_inicio.svg" alt=" "/>
 
@@ -137,7 +136,5 @@
 
 
 </html>
-
-
 
 
