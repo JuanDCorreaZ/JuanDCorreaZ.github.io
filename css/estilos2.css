@@ -1,0 +1,116 @@
+.area{
+ 
+    height: 550px;
+    width: 430px;
+    background-color: white;
+    border-radius: 30px;
+    position:absolute;    
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%);
+    font-size: 40px;
+}
+#src_img{
+    
+    color: white;
+    position: absolute;
+    bottom:0%;
+    left: 10px;
+    
+}
+#src_img a{
+    
+    color: white;
+    
+}
+#title_login{
+    margin-top:15px; 
+    position:relative;
+    left:50%;
+    transform: translateX(-22%);
+    font-size: 1.0em;
+}
+.area label{
+    
+    font-size: 0.6em;
+    color:black;
+    margin-left: 30px;
+    position: relative;
+    top: 70px;
+    
+    
+}
+.area input{
+    
+    padding: 2px;
+    color: black;
+    height: 45px;
+    width: 80%;
+    margin-left: 30px;
+    border-left: none; 
+    border-right: none;
+    border-top: none;
+    font-size: 0.54em;
+}
+#input_correo1{
+    
+    position: relative;
+    top:50px;
+    
+}
+#input_clave1{
+    
+    position: relative;
+    top:50px;
+    
+    
+}
+#btn_iniciar{
+    
+    position:relative;
+    top: 100px;
+background-color: #2E4B6B;
+color: white;
+  border-left: 1px; 
+    border-right: 1px;
+    border-top: 1px;
+    border-bottom: 1px;
+    border-color: #2E4B6B;
+    border-radius: 3px;
+    width: 100px;
+    left:50%;
+    transform: translateX(-80%);
+    
+}
+#hiper_registro{
+    
+    font-size: 0.5em;
+    position: absolute;
+    bottom: 20px;
+    left: 20%;
+}
+#hiper_registro a{
+    
+    color:black;
+    
+}
+#warnings{
+    width: 350px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+    color: red;
+    padding-top: 20px;
+    font-size: 0.5em;
+}
+#form{
+    
+    
+    
+    
+}
+body{
+    
+    
+    
+}

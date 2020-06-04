@@ -1,0 +1,179 @@
+.area2{
+
+    height: 550px;
+    width:760px;
+    background-color: white;
+    border-radius: 30px;
+    position:absolute;    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 40px;
+}
+
+#src_img{
+    
+    color: white;
+    position: absolute;
+    bottom:0%;
+    left: 10px;
+    
+}
+#src_img a{
+    
+    color: white;
+    
+}
+#title_login2{
+    
+    
+    
+   
+    font-size: 1.0em;
+}
+.section1{
+    
+    
+    position: relative;
+    width: 50%;
+    height: 70%;
+    border-right: 1px solid #eee;
+    
+}
+.section1 label{
+    
+    margin-top: 20px;
+    height: 20px;
+    width: 40%;
+    
+}
+.section1 input{
+    
+   
+    
+}
+.area2 label{
+    
+    font-size: 0.55em;
+    color:black;
+    
+    
+    
+}
+.area2 input{
+    
+    /*padding: 2px;*/
+    color: black;
+
+   
+    border-left: none; 
+    border-right: none;
+    border-top: none;
+    font-size: 0.4em;
+}
+#input_correo2{
+    
+    position: relative;
+    
+}
+#input_clave2{
+    
+    position: relative;
+    
+    
+}
+#title_campo{
+    
+    position: relative;
+    width: 20.65%;
+    left:50%;
+     transform: translateX(-50%);
+     margin-bottom: 20px;
+    
+}
+.form {
+    
+    position: relative;
+    
+}
+.campos{
+    position: relative;
+     margin-left: 10%;
+     
+     width: 70%
+}
+#idcampos1{
+    top: 7%;
+}
+#idcampos2{
+    top: 15%;
+    
+}
+.campos input{
+    
+   
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: block;
+    height: 30px;
+    width: 100%;
+    
+}
+#btn_next{
+    
+      position:relative;
+    
+background-color: #2E4B6B;
+color: white;
+  border-left: 1px; 
+    border-right: 1px;
+    border-top: 1px;
+    border-bottom: 1px;
+    border-color: #2E4B6B;
+    border-radius: 3px;
+    width: 135px;
+    height: 40px;
+    
+    
+}
+#button{
+    
+    position: absolute;
+    left:50%;
+    transform: translateX(-50%);
+    
+    
+}
+#hiper_registro{
+    
+    font-size: 0.5em;
+    position: absolute;
+    bottom: 20px;
+    left: 20%;
+}
+#hiper_registro a{
+    
+    color:black;
+    
+}
+#warnings2{
+    width: 350px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+    color: red;
+    padding-top: 20px;
+    font-size: 0.5em;
+    z-index: 2;
+}
+#form{
+    
+    
+    
+    
+}
+body{
+    
+    
+    
+}
