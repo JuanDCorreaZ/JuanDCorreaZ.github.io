@@ -33,7 +33,7 @@
 }
 .section1{
     
-    
+    display: inline-block;
     position: relative;
     width: 50%;
     height: 70%;
@@ -102,6 +102,12 @@
      
      width: 70%
 }
+.campos2{
+     position: relative;
+     margin-left: 10%;
+     
+     width: 70%
+}
 #idcampos1{
     top: 7%;
 }
@@ -117,6 +123,26 @@
     display: block;
     height: 30px;
     width: 100%;
+    
+}
+.campos2 input{
+    
+   
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: block;
+    height: 30px;
+    width: 100%;
+    
+}
+.section2{
+    
+ display: inline-block;
+    position: absolute;
+    width: 50%;
+    height: 70%;
+    left: 50%;
+    
     
 }
 #btn_next{
@@ -137,12 +163,18 @@ color: white;
     
 }
 #button{
-    
-    position: absolute;
+    margin-top: 3px;
+    position: relative;
     left:50%;
-    transform: translateX(-50%);
     
     
+    
+}
+#form_btn{
+    
+    position: relative;
+    width: 100%;
+   
 }
 #hiper_registro{
     

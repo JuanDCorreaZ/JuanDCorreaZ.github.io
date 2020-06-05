@@ -252,22 +252,22 @@ body{
     .contenido-slider h2{
         font-size: 23px;
     }
-    #nombre_app {
-transform: translateX(-80%); 
-    font-family: "Oswald";
-    display: inline;
-    text-decoration: none;
-    /*color:#375B69;*/
-    color: white;
-    font-size: 0.75em;
-    left: 16%;
-   
-    
-}
+    #logo{
+        
+        font-size: 0.70em;
+        width: 52%;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        
+        
+    }
 .nav-menu a{
-    text-decoration: none;
+    
+    visibility: hidden;
+    /*text-decoration: none;
     font-size: 0.49em;
-    color:#375B69;
+    color:white;*/
     
 }
 .nav-menu{
@@ -283,6 +283,24 @@ transform: translateX(-80%);
     position: relative;
     left:50%;
    
+
+}
+.all-contenedor{
+    
+    width: 80%;
+    margin: 0px auto;
+    
+    
+}
+.contenedor{
+
+    position: absolute;
+    top: 84px;
+    width: 100%;
+    
+    font-size: 0.5em;
+    overflow: hidden;
+
 
 }
     }
