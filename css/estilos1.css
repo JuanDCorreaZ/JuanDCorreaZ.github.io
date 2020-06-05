@@ -26,7 +26,10 @@ header{
     font-family:"Roboto";
     border: 1px solid #104E8B;
     color: #104E8B;
-    position: relative;
+    position: absolute;
+    top:70%;
+    left: 50%;
+    transform: translateX(-50%);
 
 
 }
@@ -123,9 +126,10 @@ body{
 }
 .contenedor{
 
-    position: relative;
-    top: 10%;
+    position: absolute;
+    top: 84px;
     width: 100%;
+    
     overflow: hidden;
 
 
