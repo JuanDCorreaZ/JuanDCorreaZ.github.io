@@ -34,11 +34,11 @@
           
                 <nav class="menu">
 
-                    <a id="nombre_app" href="index.jsp">SEGURIDAD CON FRONTERAS</a>
+                    <span id="logo"><a id="nombre_app" href="index.jsp">SEGURIDAD CON FRONTERAS</a></span>
                     
                     <ul class="nav-menu">
 
-                         <li><a href="#"  id="menu-items0" onmouseover="cambiarColor1()" onmouseout="recuperarColor1()">Filtros</a></li>
+                         <li href="login.jsp"><a href="#"  id="menu-items0" onmouseover="cambiarColor1()" onmouseout="recuperarColor1()">Filtros</a></li>
                         <li><a href="#"  id="menu-items1" onmouseover="cambiarColor2()" onmouseout="recuperarColor2()">Mapa</a></li>
                         <li ><a href="#" id="menu-items2" onmouseover="cambiarColor3()" onmouseout="recuperarColor3()">Reportar</a></li>
                         <li ><a href="login.jsp" id="menu-items3" onmouseover="cambiarColor4()" onmouseout="recuperarColor4()">Iniciar sesi&oacute;n</a></li>

@@ -30,15 +30,16 @@
         
        
        <div class="all-contenedor">
-         <header> 
+         <!--Inicia parte del menu -->
+             <header> 
           
                 <nav class="menu">
 
-                    <a id="nombre_app" href="index.jsp">SEGURIDAD CON FRONTERAS</a>
+                    <span id="logo"><a id="nombre_app" href="index.jsp">SEGURIDAD CON FRONTERAS</a></span>
                     
                     <ul class="nav-menu">
 
-                         <li><a href="#"  id="menu-items0" onmouseover="cambiarColor1()" onmouseout="recuperarColor1()">Filtros</a></li>
+                         <li href="login.jsp"><a href="#"  id="menu-items0" onmouseover="cambiarColor1()" onmouseout="recuperarColor1()">Filtros</a></li>
                         <li><a href="#"  id="menu-items1" onmouseover="cambiarColor2()" onmouseout="recuperarColor2()">Mapa</a></li>
                         <li ><a href="#" id="menu-items2" onmouseover="cambiarColor3()" onmouseout="recuperarColor3()">Reportar</a></li>
                         <li ><a href="login.jsp" id="menu-items3" onmouseover="cambiarColor4()" onmouseout="recuperarColor4()">Iniciar sesi&oacute;n</a></li>
@@ -61,10 +62,10 @@
                  </div>
                    
                    <div class="campos" id="idcampos2"> <!---->
-                     <form id="form">
+                     <!--<form id="form">-->
                      <label>Ingrese su documento de identidad</label>
                      <input type="text" id="input_documento" name="nombre" placeholder="Documento de identidad aqu&iacute;"/>
-                 </form>
+                 <!--</form>-->
                  </div>
                 <!--
                 <div class="campos">
@@ -82,6 +83,16 @@
                 </div>-->
             
                 </section>
+               <section class="section2">
+                   
+                   <div class="campos2" id="idcampos2.1">
+                       
+                       
+                       
+                       
+                   </div>
+                   
+               </section>
                 
                 
                      <span id="button"><input type="submit" value="CONTINUAR" id="btn_next"/></span>
