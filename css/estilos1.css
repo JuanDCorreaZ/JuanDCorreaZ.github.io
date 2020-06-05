@@ -43,15 +43,12 @@ header{
 .menu{
 
     z-index: 1;
-    position: relative;
+    position: fixed;
     width: 100%;
     height:84px;
     border-bottom: 1px solid #B1BCC1 ;
     border-top: 1px solid #B1BCC1 ;
-    top:0%;
-   /* float: left;*/
-    left:0%;
-    /*padding: 10px;*/
+    padding: 10px auto;
     font-family: "Oswald";
     color:  white/*#375B69*/;
     background-color: #2E4B6B/*#F8F8F8*/;
@@ -64,20 +61,18 @@ header{
    
     
 }
-
+#logo{
+    position:absolute;
+    margin-left: 10px; 
+    height:64px;
+    width: 47%;
+    top: 50%;
+    transform: translateY(-50%);
+   
+}
 #nombre_app {
   
     
-   top: 10%;
-   left:1%;
-   transform: translate(-50%,-50%);
-    text-align: center;
-    position:relative;
-    margin-left: 10px;
-
-    /*font-family: "Oswald";*/
-   
-    /*display: inline;*/
     text-decoration: none;
     color:white/*#375B69*/;
     
@@ -87,30 +82,28 @@ header{
 
 
 
-.nav-menu{
+.nav-menu {
 
+    position:relative;
     display: inline;
     padding: 0px;
-    margin-bottom: 25px;
-    margin-top: 25px;
-    position:relative;
-    transform: translate(-50%,-70%);
-    margin-left: 40px;
-    font-family: fantasy;
-    position: relative;
-    left:26%;
-    color: white;
+    margin: 10px auto;
+    width: 10%;
+    /*margin-bottom: 25px;
+    margin-top: 25px;*/
+ 
+  left: 60%;
+    
    
 
 }
 
 .nav-menu li{
-    
-    font-family: "Oswald";
     display: inline;
-    margin: 25px;
-     top:50%;
-    transform: translateY(-50%);
+    font-family: "Oswald";
+    margin: 2.5%;
+    color: white;
+    
 
 }
 .nav-menu a{
@@ -120,26 +113,7 @@ header{
     color: white;
     
 }
-#menu-items0{
-    
-    color: white;
-    
-}
-#menu-items1{
-    
-    color: white;
-    
-}
-#menu-items2{
-    
-    color: white;
-    
-}
-menu-items3{
-    
-    color: white;
-    
-}
+
 
 
 
