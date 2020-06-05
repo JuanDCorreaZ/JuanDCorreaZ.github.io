@@ -28,9 +28,7 @@
    
     
         <body>
-             <div class="all-contenedor">
-                 <!--Inicia parte del menu -->
-             <header> 
+            <header> 
           
                 <nav class="menu">
 
@@ -38,7 +36,7 @@
                     
                     <ul class="nav-menu">
 
-                         <li href="login.jsp"><a href="#"  id="menu-items0" onmouseover="cambiarColor1()" onmouseout="recuperarColor1()">Filtros</a></li>
+                         <li ><a href="index.jsp"  id="menu-items0" onmouseover="cambiarColor1()" onmouseout="recuperarColor1()">Inicio</a></li>
                         <li><a href="#"  id="menu-items1" onmouseover="cambiarColor2()" onmouseout="recuperarColor2()">Mapa</a></li>
                         <li ><a href="#" id="menu-items2" onmouseover="cambiarColor3()" onmouseout="recuperarColor3()">Reportar</a></li>
                         <li ><a href="login.jsp" id="menu-items3" onmouseover="cambiarColor4()" onmouseout="recuperarColor4()">Iniciar sesi&oacute;n</a></li>
@@ -46,6 +44,9 @@
 
                 </nav>
             </header>
+             <div class="all-contenedor">
+                 <!--Inicia parte del menu -->
+             <
             <!--Termina parte del menu -->
             
             <!--Inicia parte del slider -->

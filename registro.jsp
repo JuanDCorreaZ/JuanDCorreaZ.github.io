@@ -31,15 +31,13 @@
        
        <div class="all-contenedor">
          <!--Inicia parte del menu -->
-             <header> 
-          
                 <nav class="menu">
 
                     <span id="logo"><a id="nombre_app" href="index.jsp">SEGURIDAD CON FRONTERAS</a></span>
                     
                     <ul class="nav-menu">
 
-                         <li href="login.jsp"><a href="#"  id="menu-items0" onmouseover="cambiarColor1()" onmouseout="recuperarColor1()">Filtros</a></li>
+                         <li ><a href="index.jsp"  id="menu-items0" onmouseover="cambiarColor1()" onmouseout="recuperarColor1()">Inicio</a></li>
                         <li><a href="#"  id="menu-items1" onmouseover="cambiarColor2()" onmouseout="recuperarColor2()">Mapa</a></li>
                         <li ><a href="#" id="menu-items2" onmouseover="cambiarColor3()" onmouseout="recuperarColor3()">Reportar</a></li>
                         <li ><a href="login.jsp" id="menu-items3" onmouseover="cambiarColor4()" onmouseout="recuperarColor4()">Iniciar sesi&oacute;n</a></li>
@@ -47,6 +45,10 @@
 
                 </nav>
             </header>
+             <div class="all-contenedor">
+                 <!--Inicia parte del menu -->
+             <
+            <!--Termina parte del menu -->
             <!--Termina parte del menu -->
 
            <div class="area2">
@@ -55,47 +57,47 @@
                
                <section class="section1">
                    <div class="campos" id="idcampos1"> <!---->
-                     <!--<form id="form">-->
                      <label>Ingrese sus nombres y apellidos</label>
-                     <input type="text" id="input_nombre" name="nombre" placeholder="Juan David Correa Zapata"/>
-                 <!--</form>-->
+                     <input type="text" id="input_nombre" name="nombre" placeholder="Tu nombre completo"/>
                  </div>
                    
                    <div class="campos" id="idcampos2"> <!---->
-                     <!--<form id="form">-->
                      <label>Ingrese su documento de identidad</label>
                      <input type="text" id="input_documento" name="nombre" placeholder="Documento de identidad aqu&iacute;"/>
-                 <!--</form>-->
                  </div>
-                <!--
-                <div class="campos">
-                    <form id="form">
-               <label id="label_correo2">Correo electr&oacute;nico</label>
-               <input type="email" id="input_correo2" name="email" placeholder="correo@ejemplo.com" required=""/><!----> <!--onfocus="focusCorreo()"-->
-                  <!--</form>
-             <!-- </div>-->
-               
-                   <!--<div class="campos">
-                     <form id="form">
-               <label id="label_clave2">Contrase&ntilde;a</label>
-               <input type="password" id="input_clave3" name="password" placeholder="contrase&ntilde;a" required="" /><!--required=""--> <!--onfocus="focusClave()"-->
-                  <!--</form>
-                </div>-->
+                
             
                 </section>
                <section class="section2">
                    
                    <div class="campos2" id="idcampos2.1">
-                       
-                       
-                       
-                       
-                   </div>
+                    
+               <label id="label_correo2">Correo electr&oacute;nico</label>
+               <input type="email" id="input_correo2" name="email" placeholder="correo@ejemplo.com" required=""/><!----> <!--onfocus="focusCorreo()"-->
+                 
+                  </div>
+                   <div class="campos2">
+                     
+               <label id="label_clave2">Contrase&ntilde;a</label>
+               <input type="password" id="input_clave2" name="password2" placeholder="contrase&ntilde;a" required="" /><!--required=""--> <!--onfocus="focusClave()"-->
+                 
+                </div>
+                   
+                   <div class="campos2">
+                     
+               <label id="label_clave2">Confirmar contrase&ntilde;a</label>
+               <input type="password" id="input_clave3" name="password_confirmation" placeholder="contrase&ntilde;a" required="" /><!--required=""--> <!--onfocus="focusClave()"-->
+                 
+                </div>
+                      
+                   
                    
                </section>
                 
-                
+               <form  id="form_btn">
                      <span id="button"><input type="submit" value="CONTINUAR" id="btn_next"/></span>
+               </form>
+                   
                     
                 <!--<p id="warnings2"></p>-->
                
@@ -109,6 +111,7 @@
         <!-- javascript area-->
         <script type="text/javascript" src="javascript/js1.js"></script>
        <script type="text/javascript" src="javascript/js2.js"></script>
+       <script type="text/javascript" src="javascript/js3.js"></script>
         
     </body>
 </html>
