@@ -53,7 +53,7 @@
 
            <div class="area2">
                
-               <div id="title_campo"><h1 id="title_login2">Registrarse</h1></div>
+               <div id="title_campo"><h1 id="title_login2">Reportar</h1></div>
                
                <div id="area_register">
                    

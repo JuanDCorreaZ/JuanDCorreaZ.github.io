@@ -16,7 +16,6 @@
         <link rel="icon" type="image/svg" href="imagenes/slider/seguridad.svg"/>
 
 
-
         <title>Home</title>
 
 
@@ -37,8 +36,8 @@
                     <ul class="nav-menu">
 
                          <li ><a href="index.jsp"  id="menu-items0" onmouseover="cambiarColor1()" onmouseout="recuperarColor1()">Inicio</a></li>
-                        <li><a href="#"  id="menu-items1" onmouseover="cambiarColor2()" onmouseout="recuperarColor2()">Mapa</a></li>
-                        <li ><a href="#" id="menu-items2" onmouseover="cambiarColor3()" onmouseout="recuperarColor3()">Reportar</a></li>
+                        <li><a href="mapa.jsp"  id="menu-items1" onmouseover="cambiarColor2()" onmouseout="recuperarColor2()">Mapa</a></li>
+                        <li ><a href="reportar.jsp" id="menu-items2" onmouseover="cambiarColor3()" onmouseout="recuperarColor3()">Reportar</a></li>
                         <li ><a href="login.jsp" id="menu-items3" onmouseover="cambiarColor4()" onmouseout="recuperarColor4()">Iniciar sesi&oacute;n</a></li>
                     </ul>
 
@@ -130,11 +129,14 @@
     
     </div>
  </div><!-- all-contenedor -->
-    <script type="text/javascript" src="javascript/js1.js"></script>
-    <script type="text/javascript" src="javascript/js2.js"></script>
+    <footer id="footer"> 
+        <h2> MI FOOTER </h2>
+        
+    </footer>
 
 </body>
-
+<script type="text/javascript" src="javascript/js1.js"></script>
+    <script type="text/javascript" src="javascript/js2.js"></script>
 
 </html>
 
