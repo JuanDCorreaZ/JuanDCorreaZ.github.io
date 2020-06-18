@@ -12,181 +12,183 @@
 }
 
 #src_img{
-    
+
     color: white;
     position: absolute;
     bottom:0%;
     left: 10px;
-    
+
 }
 #src_img a{
-    
+
     color: white;
-    
+
 }
 #title_login2{
-    
-    
-    
-   
     font-size: 1.0em;
 }
+
 .section1{
-    
+
     display: inline-block;
     position: relative;
     width: 50%;
-    height: 70%;
+    height: 100%;
     border-right: 1px solid #eee;
-    
+
 }
 .section1 label{
-    
+
     margin-top: 20px;
     height: 20px;
     width: 40%;
-    
+
 }
-.section1 input{
-    
-   
-    
+#area_register{
+
+    position: relative;
+    width: 100%;
+    height: 70%;
+
+
 }
+
 .area2 label{
-    
+
     font-size: 0.55em;
     color:black;
-    
-    
-    
+
+
+
 }
 .area2 input{
-    
+
     /*padding: 2px;*/
     color: black;
 
-   
+
     border-left: none; 
     border-right: none;
     border-top: none;
     font-size: 0.4em;
 }
 #input_correo2{
-    
+
     position: relative;
-    
+
 }
 #input_clave2{
-    
+
     position: relative;
-    
-    
+
+
 }
 #title_campo{
-    
+
     position: relative;
     width: 20.65%;
     left:50%;
-     transform: translateX(-50%);
-     margin-bottom: 20px;
-    
+    transform: translateX(-50%);
+    margin-bottom: 20px;
+
 }
 .form {
-    
+
     position: relative;
-    
+
 }
 .campos{
     position: relative;
-     margin-left: 10%;
-     
-     width: 70%
+    margin-left: 10%;
+
+    width: 70%
 }
 .campos2{
-     position: relative;
-     margin-left: 10%;
-     
-     width: 70%
+    position: relative;
+    margin-left: 10%;
+
+    width: 70%
 }
 #idcampos1{
     top: 7%;
 }
 #idcampos2{
     top: 15%;
-    
+
 }
 .campos input{
-    
-   
-    margin-top: 20px;
+
+
+    margin-top: 15px;
     margin-bottom: 10px;
     display: block;
     height: 30px;
     width: 100%;
-    
+
 }
 .campos2 input{
-    
-   
-    margin-top: 20px;
+
+
+    margin-top: 15px;
     margin-bottom: 10px;
     display: block;
     height: 30px;
     width: 100%;
-    
+
 }
 .section2{
-    
- display: inline-block;
+
+    display: inline-block;
     position: absolute;
     width: 50%;
-    height: 70%;
+    height: 100%;
     left: 50%;
-    
-    
+
+
 }
 #btn_next{
-    
-      position:relative;
-    
-background-color: #2E4B6B;
-color: white;
-  border-left: 1px; 
-    border-right: 1px;
-    border-top: 1px;
-    border-bottom: 1px;
+
+    position:relative;
+
+    background-color: #2E4B6B;
+    color: white;
+
     border-color: #2E4B6B;
     border-radius: 3px;
     width: 135px;
     height: 40px;
-    
-    
+    left:50%;
+    transform: translate(-50%,-50%);
+    margin-top: 40px;
+
 }
 #button{
-    margin-top: 3px;
+    width: 135px;
+    height: 40px;
+    
     position: relative;
-    left:50%;
-    
-    
-    
+   
+
+
+
 }
 #form_btn{
-    
+
     position: relative;
     width: 100%;
-   
+
 }
 #hiper_registro{
-    
+
     font-size: 0.5em;
     position: absolute;
     bottom: 20px;
     left: 20%;
 }
 #hiper_registro a{
-    
+
     color:black;
-    
+
 }
 #warnings2{
     width: 350px;
@@ -199,13 +201,59 @@ color: white;
     z-index: 2;
 }
 #form{
-    
-    
-    
-    
+
+
+
+
 }
+#parrafo_name{
+       width: 250px;
+   /* text-align: center;*/
+    /*margin: auto;
+    margin-bottom: 20px;*/
+    color: red;
+  
+    font-size: 0.4em;
+}
+#parrafo_dni{
+    width: 250px;
+   /* text-align: center;*/
+    /*margin: auto;
+    margin-bottom: 20px;*/
+    color: red;
+  
+    font-size: 0.4em;
+}
+#parrafo_email{
+    width: 250px;
+   /* text-align: center;*/
+    /*margin: auto;
+    margin-bottom: 20px;*/
+    color: red;
+  
+    font-size: 0.4em;
+}
+#parrafo_pass1{
+    width: 250px;
+   /* text-align: center;*/
+    /*margin: auto;
+    margin-bottom: 20px;*/
+    color: red;
+    
+   font-size: 0.4em;
+}
+#parrafo_pass2{
+    width: 250px;
+   /* text-align: center;*/
+    /*margin: auto;
+    margin-bottom: 20px;*/
+    color: red;
+    
+    font-size: 0.4em;
+}
+
 body{
-    
-    
-    
+
+
+
 }

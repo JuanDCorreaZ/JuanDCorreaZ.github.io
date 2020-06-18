@@ -239,6 +239,11 @@ body{
     margin: 10px auto;
 
 } 
+#footer{
+    background-color: black;
+    width: 100%;
+    
+}
 
 @media screen and (max-width:700px){
     .contenido-slider img{
@@ -303,7 +308,7 @@ body{
 
 
 }
-    }
+  }  
 /*#nombre_app {
 
     font-family: "Oswald";
@@ -316,7 +321,7 @@ body{
 }*/
     
    
-}
+
 
 @media screen and (max-width:600px){
     .contenido-slider {
