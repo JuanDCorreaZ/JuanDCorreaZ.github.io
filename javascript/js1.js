@@ -3,7 +3,7 @@ let slider = document.querySelector('.slider-contenedor');
     let sliderIndividual = document.querySelectorAll('.contenido-slider');
     let contador = 1;
     let width = sliderIndividual[0].clientWidth;
-    let intervalo = 4000;
+    let intervalo = 6000;
 
 
 
