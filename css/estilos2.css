@@ -69,7 +69,7 @@
     
     position:relative;
     top: 100px;
-background-color: #2E4B6B;
+background-color: #024959;
 color: white;
   border-left: 1px; 
     border-right: 1px;
@@ -80,6 +80,10 @@ color: white;
     width: 100px;
     left:50%;
     transform: translateX(-80%);
+    
+}
+#btn_iniciar:hover {
+    background-color: #037E8C;
     
 }
 #hiper_registro{
@@ -113,4 +117,18 @@ body{
     
     
     
+}
+@media screen and (min-width: 500px) and(max-width:700px)  {
+    .area{
+ 
+    height: 550px;
+    width: 430px;
+    background-color: black;
+    border-radius: 30px;
+    position:relative;    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 40px;
+}
 }
