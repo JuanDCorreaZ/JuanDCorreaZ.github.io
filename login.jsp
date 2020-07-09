@@ -11,9 +11,10 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
          
-        
+        <link rel="stylesheet" type="text/css" href="css/menu.css"/>
         <link rel="stylesheet" type="text/css" href="css/estilos1.css"/>
         <link rel="stylesheet" type="text/css" href="css/estilos2.css"/>
+        
 
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Quicksand:wght@300&display=swap" rel="stylesheet">
@@ -25,25 +26,44 @@
     <body background="imagenes/background_login/back_login3.jpg">
         
        
-       <!--<div class="all-contenedor">-->
-         <!--Inicia parte del menu -->
-                <nav class="menu">
+       <div class="all-contenedor">
+                  <header>
+		<div class="menu_bar">
+			<a href="#" class="bt-menu"><span class="menu1" src="imagenes/menu1.svg"><img /></span>Menu</a>
+		</div>
+ 
+		<nav>
+			<ul>
+				<li><a href="index.jsp"><span class="icon-home"></span>Inicio</a></li>
+				<li><a href="mapa.jsp"><span class="icon-map"></span>Mapa</a></li>
+				<li><a href="#"><span class="icon-flag"></span>Reportar</a></li>
+				<li><a href="registro.jsp"><span class="icon-clipboard"></span>Registrarse</a></li>
+				<li><a href="login.jsp"><span class="icon-enter"></span>Iniciar sesi&oacute;n</a></li>
+			</ul>
+		</nav>
+	</header>
+           <!--
+            <nav class="menu">
 
-                    <span id="logo"><a id="nombre_app" href="index.jsp">SEGURIDAD CON FRONTERAS</a></span>
-                    
-                    <ul class="nav-menu">
+                <span id="logo"><a id="nombre_app" href="index.jsp">SEGURIDAD CON FRONTERAS</a></span>
 
-                         <li ><a href="index.jsp"  id="menu-items0" onmouseover="cambiarColor1()" onmouseout="recuperarColor1()">Inicio</a></li>
-                        <li><a href="#"  id="menu-items1" onmouseover="cambiarColor2()" onmouseout="recuperarColor2()">Mapa</a></li>
-                        <li ><a href="#" id="menu-items2" onmouseover="cambiarColor3()" onmouseout="recuperarColor3()">Reportar</a></li>
-                        <li ><a href="login.jsp" id="menu-items3" onmouseover="cambiarColor4()" onmouseout="recuperarColor4()">Iniciar sesi&oacute;n</a></li>
-                    </ul>
+                <ul class="nav-menu">
 
-                </nav>
-            </header>
-             <div class="all-contenedor">
-                 <!--Inicia parte del menu -->
-             <
+                    <li ><a href="index.jsp"  id="menu-items0" onmouseover="cambiarColor1()" onmouseout="recuperarColor1()">Inicio</a></li>
+                    <li><a href="mapa.jsp"  id="menu-items1" onmouseover="cambiarColor2()" onmouseout="recuperarColor2()">Mapa</a></li>
+                    <li ><a href="#" id="menu-items2" onmouseover="cambiarColor3()" onmouseout="recuperarColor3()">Reportar</a></li>
+                    <li ><a href="registro.jsp" id="menu-items3" onmouseover="cambiarFondo()" onmouseout="recuperarFondo()">Registrarse</a></li>
+                    <li ><a href="login.jsp" id="menu-items4" onmouseover="cambiarFondo2()" onmouseout="recuperarFondo2()">Iniciar sesi&oacute;n</a></li>
+
+                </ul>
+
+            </nav>
+           -->
+        
+
+        <!--Inicia parte del menu <div class="all-contenedor"> -->
+
+        <!--Termina parte del menu -->
             <!--Termina parte del menu -->
 
            <div class="area">
@@ -67,7 +87,7 @@
            </div>
         <span id="src_img">Imagen de <a  href="https://pixabay.com/es/users/UlisesCasarez-6198947/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2722716">Ulises Casaraz</a> en <a href="https://pixabay.com/es/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2722716">Pixabay</a></span>
         
-        <!--</div>all-contenedor--> 
+        </div>
         
         <script type="text/javascript" src="javascript/js1.js"></script>
         <script type="text/javascript" src="javascript/js2.js"></script>

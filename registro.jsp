@@ -14,6 +14,7 @@
         <link rel="stylesheet" type="text/css" href="css/estilos1.css"/>
         <link rel="stylesheet" type="text/css" href="css/estilos2.css"/>
         <link rel="stylesheet" type="text/css" href="css/estilos3.css"/>
+        <link rel="stylesheet" type="text/css" href="css/menu.css"/>
 
        
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
@@ -26,29 +27,44 @@
 
 
     </head>
-    <body background="imagenes/background_login/back_registro7.jpg">
+    <body background="imagenes/background_login/back_registro5.jpg">
         
        
        <div class="all-contenedor">
          <!--Inicia parte del menu -->
-                <nav class="menu">
+<header>
+		<div class="menu_bar">
+			<a href="#" class="bt-menu"><span class="icon-list2"></span>Menu</a>
+		</div>
+ 
+		<nav>
+			<ul>
+				<li><a href="index.jsp"><span class="icon-house"></span>Inicio</a></li>
+				<li><a href="mapa.jsp"><span class="icon-suitcase"></span>Mapa</a></li>
+				<li><a href="#"><span class="icon-rocket"></span>Reportar</a></li>
+				<li><a href="registro.jsp"><span class="icon-earth"></span>Registrarse</a></li>
+				<li><a href="login.jsp"><span class="icon-mail"></span>Iniciar sesi&oacute;n</a></li>
+			</ul>
+		</nav>
+	</header>
+           <!--
+            <nav class="menu">
 
-                    <span id="logo"><a id="nombre_app" href="index.jsp">SEGURIDAD CON FRONTERAS</a></span>
-                    
-                    <ul class="nav-menu">
+                <span id="logo"><a id="nombre_app" href="index.jsp">SEGURIDAD CON FRONTERAS</a></span>
 
-                         <li ><a href="index.jsp"  id="menu-items0" onmouseover="cambiarColor1()" onmouseout="recuperarColor1()">Inicio</a></li>
-                        <li><a href="#"  id="menu-items1" onmouseover="cambiarColor2()" onmouseout="recuperarColor2()">Mapa</a></li>
-                        <li ><a href="#" id="menu-items2" onmouseover="cambiarColor3()" onmouseout="recuperarColor3()">Reportar</a></li>
-                        <li ><a href="login.jsp" id="menu-items3" onmouseover="cambiarColor4()" onmouseout="recuperarColor4()">Iniciar sesi&oacute;n</a></li>
-                    </ul>
+                <ul class="nav-menu">
 
-                </nav>
-            </header>
-             <div class="all-contenedor">
-                 <!--Inicia parte del menu -->
-             <
-            <!--Termina parte del menu -->
+                    <li ><a href="index.jsp"  id="menu-items0" onmouseover="cambiarColor1()" onmouseout="recuperarColor1()">Inicio</a></li>
+                    <li><a href="mapa.jsp"  id="menu-items1" onmouseover="cambiarColor2()" onmouseout="recuperarColor2()">Mapa</a></li>
+                    <li ><a href="#" id="menu-items2" onmouseover="cambiarColor3()" onmouseout="recuperarColor3()">Reportar</a></li>
+                    <li ><a href="registro.jsp" id="menu-items3" onmouseover="cambiarFondo()" onmouseout="recuperarFondo()">Registrarse</a></li>
+                    <li ><a href="login.jsp" id="menu-items4" onmouseover="cambiarFondo2()" onmouseout="recuperarFondo2()">Iniciar sesi&oacute;n</a></li>
+
+                </ul>
+
+            </nav>
+           -->
+        
             <!--Termina parte del menu -->
 
            <div class="area2">
