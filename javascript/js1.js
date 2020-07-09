@@ -3,7 +3,7 @@ let slider = document.querySelector('.slider-contenedor');
     let sliderIndividual = document.querySelectorAll('.contenido-slider');
     let contador = 1;
     let width = sliderIndividual[0].clientWidth;
-    let intervalo = 6000;
+    let intervalo = 4000;
 
 
 
@@ -59,66 +59,7 @@ let slider = document.querySelector('.slider-contenedor');
         
         
     }*/
- function cambiarColor1(){
-        
-      document.getElementById("menu-items0").style.color = " #DADFE5";
-     
-     return false;
-        
-        
-        
-    }
- function cambiarColor2(){
-        
-      document.getElementById("menu-items1").style.color = " #DADFE5";
-     
-     return false;
-        
-        
-        
-    }
-     function cambiarColor3(){
-        
-      document.getElementById("menu-items2").style.color = " #DADFE5";
-     
-     return false;
-        
-        
-        
-    }
-     function cambiarColor4(){
-        
-      document.getElementById("menu-items3").style.color = " #DADFE5";
-     
-     return false;
-        
-        
-        
-    }
-    function recuperarColor1(){
-        
-        document.getElementById("menu-items0").style.color = "white";
-        
-        return false;
-    }
-       function recuperarColor2(){
-        
-        document.getElementById("menu-items1").style.color = "white";
-        
-        return false;
-    }
-       function recuperarColor3(){
-        
-        document.getElementById("menu-items2").style.color = "white";
-        
-        return false;
-    }
-       function recuperarColor4(){
-        
-        document.getElementById("menu-items3").style.color = "white";
-        
-        return false;
-    }
+
     function detail_slide(){
         
         
@@ -128,4 +69,10 @@ let slider = document.querySelector('.slider-contenedor');
         return false;
         
     }
-
+    
+    
+    
+    
+    
+    
+   
