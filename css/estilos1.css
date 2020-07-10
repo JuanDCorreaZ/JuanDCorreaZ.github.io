@@ -230,6 +230,22 @@ body{
     padding: 25px;
     background-color: #ddd;
     margin: 20px;
+   
+    
+}
+#orangecamp{
+    
+    background-color: #ff8214;
+    
+}
+#bluecamp{
+    
+    background-color: #449fdb;
+    
+}
+#redcamp{
+    
+    background-color: #f40000;
     
 }
 /*PARTE RESPONSIVE DEL INDEX (SLIDER)*/
